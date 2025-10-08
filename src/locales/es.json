@@ -1,0 +1,59 @@
+{
+  "extension.name": "FiveM RCON",
+  "extension.description": "Reinicia recursos y envía comandos a tu servidor FiveM",
+  
+  "command.configure.title": "FiveM: Configurar Conexión",
+  "command.connect.title": "FiveM: Conectar al Servidor",
+  "command.disconnect.title": "FiveM: Desconectar",
+  "command.sendCommand.title": "FiveM: Enviar Comando",
+  "command.testUdp.title": "FiveM: Probar Conectividad UDP",
+  "command.restartResource.title": "FiveM: Reiniciar Recurso",
+  
+  "configure.prompt.serverAddress": "Ingrese la dirección del servidor RCON",
+  "configure.placeholder.serverAddress": "ejemplo: 127.0.0.1:30120",
+  "configure.validation.invalidFormat": "Formato inválido. Use: IP:PUERTO (ej: 127.0.0.1:30120)",
+  "configure.prompt.password": "Ingrese la contraseña RCON",
+  "configure.placeholder.password": "Contraseña del servidor RCON",
+  "configure.success": "Configuración RCON guardada correctamente",
+  "configure.error": "Error al configurar RCON: {0}",
+  
+  "connect.progress": "Conectando a RCON...",
+  "connect.warning.noConfig": "Configure primero la conexión RCON usando el comando \"RCON: Configurar Conexión\"",
+  "connect.success": "Conectado a RCON: {0}:{1}",
+  "connect.error": "Error al conectar a RCON. Revisa el log para más detalles.",
+  "connect.error.viewLog": "Ver Log",
+  
+  "disconnect.success": "Desconectado de RCON",
+  "disconnect.warning.noConnection": "No hay ninguna conexión RCON activa",
+  
+  "sendCommand.warning.notConnected": "Debe conectarse primero al servidor RCON",
+  "sendCommand.prompt": "Ingrese el comando RCON a ejecutar",
+  "sendCommand.placeholder": "status",
+  "sendCommand.error": "Error al enviar comando: {0}",
+  "sendCommand.resultTitle": "Comando: {0}\\n\\nRespuesta:\\n{1}",
+  
+  "restartResource.warning.noConnection": "No hay conexión RCON activa. ¿Desea conectarse ahora?",
+  "restartResource.button.connect": "Conectar",
+  "restartResource.button.cancel": "Cancelar",
+  "restartResource.prompt.resourceName": "Ingrese el nombre del recurso a reiniciar",
+  "restartResource.placeholder.resourceName": "nombre_recurso",
+  "restartResource.success": "Recurso \"{0}\" reiniciado correctamente",
+  "restartResource.error": "Error al reiniciar recurso: {0}",
+  
+  "testUdp.sending": "Enviando mensaje de prueba: \"{0}\"",
+  "testUdp.timeout": "Timeout (5s) - No se recibió respuesta",
+  "testUdp.timeoutNote": "Esto NO necesariamente es un error - algunos servidores no responden a mensajes no válidos",
+  "testUdp.success": "✓ Servidor UDP responde correctamente",
+  "testUdp.error": "✗ Error en prueba UDP: {0}",
+  
+  "log.extensionStarted": "=== Extensión FiveM RCON Iniciada ===",
+  "log.connectingToRcon": "=== Iniciando conexión RCON ===",
+  "log.disconnected": "=== Desconectado de RCON ===",
+  "log.testingUdp": "=== Prueba de conectividad UDP ===",
+  "log.restartingResource": "=== Reiniciando Recurso: {0} ===",
+  "log.commandCompleted": "=== Comando Completado ===",
+  "log.executingCommand": "Ejecutando: {0}",
+  "log.serverResponse": "Respuesta del servidor:",
+  "log.errorConfig": "ERROR: Configuración incompleta",
+  "log.error": "Error: {0}"
+}

@@ -1,0 +1,10 @@
+{
+  "extension.name": "FiveM RCON",
+  "extension.description": "Restart resources and send commands to your FiveM server",
+  "command.configure.title": "FiveM: Configure Connection",
+  "command.connect.title": "FiveM: Connect to Server",
+  "command.disconnect.title": "FiveM: Disconnect",
+  "command.sendCommand.title": "FiveM: Send Command",
+  "command.testUdp.title": "FiveM: Test UDP Connectivity",
+  "command.restartResource.title": "FiveM: Restart Resource"
+}
